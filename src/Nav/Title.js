@@ -12,6 +12,10 @@ const Title = styled(Stylable("div"))`
   svg {
     height: 100%;
   }
+
+  *:nth-child(n + 2) {
+    margin-left: 10px;
+  }
 `;
 
 Title.defaultProps = {
